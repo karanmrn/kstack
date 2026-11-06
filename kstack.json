@@ -554,6 +554,11 @@
       "license": "MIT"
     },
     {
+      "name": "openrouter",
+      "source": "karanmrn/kstack",
+      "path": "skills/openrouter"
+    },
+    {
       "name": "performance-optimization",
       "source": "addyosmani/agent-skills",
       "path": "skills/performance-optimization",
