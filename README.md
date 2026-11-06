@@ -2,7 +2,7 @@
 
 kstack is a small, curated set of agent skills for running a dark software factory: agents that plan, build, review and ship code with little human help.
 It holds only skills from five upstream families: [Addy Osmani's agent skills](https://github.com/addyosmani/agent-skills), [pstack](https://github.com/backnotprop/pstack), [tstack](https://github.com/t3dotgg/tstack), [Matt Pocock's skills](https://github.com/mattpocock/skills) and [Kun Chen's tools](https://github.com/kunchenguid).
-It adds four skills of its own, written from real fleet workflows.
+It adds five skills of its own, written from real fleet workflows.
 Each copied skill keeps an `UPSTREAM.md` with its source commit and licence. Star and follow the upstream repositories for the newest versions.
 
 ```bash
@@ -167,5 +167,6 @@ See [INSTALL.md](INSTALL.md) to install one skill or to refresh the set, and [CA
 | [`audit-agent-worktrees`](skills/audit-agent-worktrees/) | Audit old git worktrees and clones that coding agents left behind, and delete only the ones whose work is safe. | kstack |
 | [`delegate-to-model`](skills/delegate-to-model/) | Hand a task from the current agent to another model on your subscriptions - Codex CLI, Cursor agent CLI, or any OpenRouter model - and... | kstack |
 | [`mac-disk-cleanup`](skills/mac-disk-cleanup/) | Free disk space on a developer Mac safely. | kstack |
+| [`openrouter`](skills/openrouter/) | List, ask, compare and launch OpenRouter models from the shell. | kstack |
 | [`supervise-agent-fleet`](skills/supervise-agent-fleet/) | Supervise several coding agents that work in parallel and ship through pull requests. | kstack |
 <!-- kstack:skills:end -->

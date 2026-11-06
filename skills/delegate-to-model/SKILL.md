@@ -69,15 +69,10 @@ cursor-agent -p --workspace ../task-cursor --model <model> \
 cursor-agent -p --mode plan --workspace <repo> "$(cat handoff.md)" > result.md   # read-only
 ```
 
-OpenRouter, with the key from the environment:
+OpenRouter, through the CLI of the [`openrouter`](../openrouter/SKILL.md) skill. The reply goes to `result.md`, and tokens and cost go to stderr:
 
 ```bash
-jq -n --arg m "<vendor/model>" --rawfile p handoff.md \
-  '{model:$m, messages:[{role:"user", content:$p}]}' |
-curl -s https://openrouter.ai/api/v1/chat/completions \
-  -H "Authorization: Bearer $OPENROUTER_API_KEY" \
-  -H "Content-Type: application/json" -d @- |
-jq -r '.choices[0].message.content' > result.md
+openrouter ask <vendor/model> - < handoff.md > result.md
 ```
 
 `opencode run -m openrouter/<vendor/model> "$(cat handoff.md)"` does the same through OpenCode when it is set up.
