@@ -1,6 +1,6 @@
 ---
 name: doubt-driven-development
-description: Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when correctness matters more than speed, when working in unfamiliar code, when stakes are high (production, security-sensitive logic, irreversible operations), or any time a confident output would be cheaper to verify now than to debug later.
+description: Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when you want every assumption cross-examined before proceeding, when stress-testing a plan for hidden failure modes, when correctness matters more than speed, when working in unfamiliar code, when stakes are high (production auth, security-sensitive logic, a high-stakes migration, irreversible operations), or any time a confident output would be cheaper to verify now than to debug later.
 ---
 
 # Doubt-Driven Development
@@ -81,6 +81,8 @@ A fresh-context reviewer needs the **artifact** and the **contract**, not the jo
 - Assertion: the claim plus the evidence that supposedly supports it (kept distinct from the Step 1 CLAIM block, which is the orchestrator's hypothesis under scrutiny)
 
 Strip your reasoning. If you hand over conclusions, you'll get back validation of your conclusions. The unit must be small enough that a reviewer can hold it in mind in one read — if it's a 500-line PR, decompose first.
+
+Strip reasoning, not evidence: if a caller, guard or test contradicts the claim, include it in the unit.
 
 ### Step 3: DOUBT — Invoke the fresh-context reviewer
 

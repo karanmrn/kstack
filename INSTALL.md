@@ -1,84 +1,68 @@
-# Install and update skills
+# Install and update kstack
 
-This repository is private. Authenticate GitHub access before installing from it:
+## Install
 
-```bash
-gh auth login
-gh auth setup-git
-```
-
-## Install one archived skill
-
-Copy the exact folder name from [CATALOG.md](CATALOG.md), then run:
+Install every kstack skill for all your agents:
 
 ```bash
-npx -y skills@latest add \
-  "https://github.com/karanmrn/karanagentskills/tree/master/skills/<folder-name>" \
-  -g --all
+npx skills add karanmrn/kstack
 ```
 
-When the catalog provides an upstream source, prefer that source. It gives clearer provenance and cleaner updates:
+Install one skill. Use the folder name from [CATALOG.md](CATALOG.md):
 
 ```bash
-npx -y skills@latest add <owner>/<repository> \
-  -g --agent '*' --skill <skill-name> -y
+npx skills add karanmrn/kstack --skill <name>
 ```
 
-## Install all valid skills from this archive
+Add `-g` to install for your user instead of the current project. Add `-y` to skip the prompts.
 
-The archive is large. Install everything only when you need a full fleet mirror:
+For an upstream skill, you can also install it from its own repository. Then updates come straight from the author:
 
 ```bash
-npx -y skills@latest add karanmrn/karanagentskills -g --all --full-depth
+npx skills add backnotprop/pstack --skill architect
 ```
 
-Installer scans archive and skips packages that fail its current validation. Warnings identify legacy, malformed, or fixture packages that remain in catalog for reference.
-
-For daily work, install a small relevant set. A large catalog increases trigger overlap and can introduce conflicting instructions.
-
-## Project installation
-
-Omit `-g` to install into the current repository:
+`kun` is link-only. Its repository has no licence, so kstack does not copy it. Install it from upstream:
 
 ```bash
-npx -y skills@latest add <owner>/<repository> \
-  --agent '*' --skill <skill-name> -y
+npx skills add kunchenguid/kun --skill kun
 ```
 
-Project skills override or supplement global behavior for that repository. Use them for product language, domain rules, architecture, and design-system constraints.
-
-## Update installed skills
-
-Update global skills:
+## Update
 
 ```bash
-npx -y skills@latest update -g -y
+npx skills update
 ```
 
-Update skills tracked by the current project:
+Then restart your agent so it loads the new skill files.
 
-```bash
-npx -y skills@latest update -p -y
-```
+## Maintain this repository
 
-The updater does not remove skills deleted upstream during a non-interactive update. Review those entries before deleting them.
+`kstack.json` is the single source of truth. It lists the accepted upstream families and every skill that kstack ships. `scripts/kstack.py` does the rest.
 
-## Load newly installed skills
+1. Select the in-family skills from your installed-skill lock. This keeps kstack's own skills:
 
-No computer restart is needed.
+   ```bash
+   python3 scripts/kstack.py select --lock ~/.agents/.skill-lock.json
+   ```
 
-- New Codex task or chat: recommended.
-- Existing harness window: restart that harness when it does not refresh its skill index automatically.
-- Existing running task: do not assume hot loading. Its skill catalog can be fixed at task start.
+2. Copy each upstream skill at its upstream HEAD. The script clones missing repositories into the directory that you give, writes `UPSTREAM.md`, skips skills without a redistributable licence, and removes every folder in `skills/` that `kstack.json` does not list:
 
-Eve and PromptScript do not support global skill installation. Other supported harnesses either read `~/.agents/skills` directly or receive links to that shared registry.
+   ```bash
+   python3 scripts/kstack.py vendor --upstream-root /tmp/kstack-upstream
+   ```
 
-## Security
+3. Write `CATALOG.md` and the README skill table:
 
-Skills run with agent permissions. Before use:
+   ```bash
+   python3 scripts/kstack.py render
+   ```
 
-1. Inspect the source repository and `SKILL.md`.
-2. Review installer security findings.
-3. Avoid broad credentials and unnecessary tool access.
-4. Pin project-specific rules locally.
-5. Keep Git history so changes remain reviewable and reversible.
+4. Run the tests:
+
+   ```bash
+   python3 -m unittest discover -s tests
+   ```
+
+To add a skill of your own, create `skills/<name>/SKILL.md`, add an entry with `"source": "karanmrn/kstack"` to `kstack.json`, and run `render`.
+To accept a new upstream family, add it to `families` in `kstack.json`, then run all four steps.
