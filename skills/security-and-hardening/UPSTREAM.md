@@ -1,6 +1,6 @@
 # Upstream
 
-This folder is a copy of `skills/security-and-hardening` from [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills/tree/301b02b12bff98e4688e6984af6556802322bbde/skills/security-and-hardening) at commit `301b02b`.
+This folder is a copy of `skills/security-and-hardening` from [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills/tree/39b723ceebf81474d0557c1fecd01eddab585563/skills/security-and-hardening) at commit `39b723c`.
 kstack adds only this file.
 Report problems with the skill upstream.
 

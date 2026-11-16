@@ -1,6 +1,6 @@
 # Upstream
 
-This folder is a copy of `skills/principle-fix-root-causes` from [backnotprop/pstack](https://github.com/backnotprop/pstack/tree/e388616361ac78eeb2da66c148d882534aca4cb9/skills/principle-fix-root-causes) at commit `e388616`.
+This folder is a copy of `skills/principle-fix-root-causes` from [backnotprop/pstack](https://github.com/backnotprop/pstack/tree/74bcc61bd216687b1d6d480c28f109adfc9824ec/skills/principle-fix-root-causes) at commit `74bcc61`.
 kstack adds only this file.
 Report problems with the skill upstream.
 

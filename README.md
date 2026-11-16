@@ -25,7 +25,7 @@ See [INSTALL.md](INSTALL.md) to install one skill or to refresh the set, and [CA
 | [`context-engineering`](skills/context-engineering/) | Optimizes agent context setup. | Addy Osmani |
 | [`debugging-and-error-recovery`](skills/debugging-and-error-recovery/) | Guides systematic root-cause debugging. | Addy Osmani |
 | [`deprecation-and-migration`](skills/deprecation-and-migration/) | Manages deprecation and migration. | Addy Osmani |
-| [`documentation-and-adrs`](skills/documentation-and-adrs/) | Records decisions and documentation. | Addy Osmani |
+| [`documentation-and-adrs`](skills/documentation-and-adrs/) | Records decisions and documentation, and detects when documentation has drifted from the code it describes. | Addy Osmani |
 | [`doubt-driven-development`](skills/doubt-driven-development/) | Subjects every non-trivial decision to a fresh-context adversarial review before it stands. | Addy Osmani |
 | [`frontend-ui-engineering`](skills/frontend-ui-engineering/) | Builds production-quality, accessible, responsive user-facing UIs. | Addy Osmani |
 | [`git-workflow-and-versioning`](skills/git-workflow-and-versioning/) | Structures git workflow practices. | Addy Osmani |
@@ -127,6 +127,7 @@ See [INSTALL.md](INSTALL.md) to install one skill or to refresh the set, and [CA
 | [`migrate-to-shoehorn`](skills/migrate-to-shoehorn/) | Migrate test files from `as` type assertions to @total-typescript/shoehorn. | Matt Pocock |
 | [`pr`](skills/pr/) | Use when writing a PR body. | Matt Pocock |
 | [`research`](skills/research/) | Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. | Matt Pocock |
+| [`resolving-merge-conflicts`](skills/resolving-merge-conflicts/) | Use when you need to resolve an in-progress git merge/rebase conflict. | Matt Pocock |
 | [`retro`](skills/retro/) | Conduct a retrospective on a coding session. | Matt Pocock |
 | [`scaffold-exercises`](skills/scaffold-exercises/) | Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. | Matt Pocock |
 | [`setup-matt-pocock-skills`](skills/setup-matt-pocock-skills/) | Configure this repo for the engineering skills: set up its issue tracker, triage label vocabulary, and domain doc layout. | Matt Pocock |

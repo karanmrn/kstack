@@ -1,6 +1,6 @@
 # Upstream
 
-This folder is a copy of `skills/engineering/triage` from [mattpocock/skills](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/triage) at commit `4ae2317`.
+This folder is a copy of `skills/engineering/triage` from [mattpocock/skills](https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/triage) at commit `5863806`.
 kstack adds only this file.
 Report problems with the skill upstream.
 

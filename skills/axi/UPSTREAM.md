@@ -1,6 +1,6 @@
 # Upstream
 
-This folder is a copy of `.agents/skills/axi` from [kunchenguid/axi](https://github.com/kunchenguid/axi/tree/fb094bcd97b8b6de59e0772f421c0f2c1d8bfad6/.agents/skills/axi) at commit `fb094bc`.
+This folder is a copy of `.agents/skills/axi` from [kunchenguid/axi](https://github.com/kunchenguid/axi/tree/8033e86e32f23d272ef40b6f7e139a2811bf1459/.agents/skills/axi) at commit `8033e86`.
 kstack adds only this file.
 Report problems with the skill upstream.
 
