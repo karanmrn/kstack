@@ -46,7 +46,12 @@ Then restart your agent so it loads the new skill files.
    python3 scripts/kstack.py select --lock ~/.agents/.skill-lock.json
    ```
 
-2. Copy each upstream skill at its upstream HEAD. The script clones missing repositories into the directory that you give, writes `UPSTREAM.md`, skips skills without a redistributable licence, and removes every folder in `skills/` that `kstack.json` does not list:
+2. Copy each upstream skill from its checkout's current `HEAD`. The script clones missing repositories into the directory that you give. It does not fetch existing checkouts or use the manifest's recorded commits. It writes `UPSTREAM.md` and skips skills without a redistributable licence. It also removes each folder in `skills/` that `kstack.json` does not list.
+
+   The command uses one checkout per source. It cannot reproduce different revisions from the same source in one pass.
+   Before a bulk refresh, check the [historical revision retained in this refresh](docs/refresh-2026-11-16.md#restored-approved-skill).
+   An upstream checkout that lacks a listed skill causes `vendor` to stop after it deletes that skill's existing folder.
+   Preserve historical entries and their `UPSTREAM.md` files separately when refreshing the remaining skills.
 
    ```bash
    python3 scripts/kstack.py vendor --upstream-root /tmp/kstack-upstream
