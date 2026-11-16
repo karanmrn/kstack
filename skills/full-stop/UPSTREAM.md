@@ -1,6 +1,6 @@
 # Upstream
 
-This folder is a copy of `skills/full-stop` from [t3dotgg/tstack](https://github.com/t3dotgg/tstack/tree/1085050f3baed1ac724caa4a8166145fb2ac88af/skills/full-stop) at commit `1085050`.
+This folder is a copy of `skills/full-stop` from [t3dotgg/tstack](https://github.com/t3dotgg/tstack/tree/11e37a74d0a6868c121cd0910ab2b3bd9873b92a/skills/full-stop) at commit `11e37a7`.
 kstack adds only this file.
 Report problems with the skill upstream.
 

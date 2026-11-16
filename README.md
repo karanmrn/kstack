@@ -25,7 +25,7 @@ See [INSTALL.md](INSTALL.md) to install one skill or to refresh the set, and [CA
 | [`context-engineering`](skills/context-engineering/) | Optimizes agent context setup. | Addy Osmani |
 | [`debugging-and-error-recovery`](skills/debugging-and-error-recovery/) | Guides systematic root-cause debugging. | Addy Osmani |
 | [`deprecation-and-migration`](skills/deprecation-and-migration/) | Manages deprecation and migration. | Addy Osmani |
-| [`documentation-and-adrs`](skills/documentation-and-adrs/) | Records decisions and documentation. | Addy Osmani |
+| [`documentation-and-adrs`](skills/documentation-and-adrs/) | Records decisions and documentation, and detects when documentation has drifted from the code it describes. | Addy Osmani |
 | [`doubt-driven-development`](skills/doubt-driven-development/) | Subjects every non-trivial decision to a fresh-context adversarial review before it stands. | Addy Osmani |
 | [`frontend-ui-engineering`](skills/frontend-ui-engineering/) | Builds production-quality, accessible, responsive user-facing UIs. | Addy Osmani |
 | [`git-workflow-and-versioning`](skills/git-workflow-and-versioning/) | Structures git workflow practices. | Addy Osmani |
