@@ -818,6 +818,13 @@
       "license": "MIT"
     },
     {
+      "name": "resolving-merge-conflicts",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/resolving-merge-conflicts",
+      "commit": "81ddacb08b3878d07ac4fa2de60bd8a53bacba5b",
+      "license": "MIT"
+    },
+    {
       "name": "retro",
       "source": "mattpocock/skills",
       "path": "skills/engineering/retro",

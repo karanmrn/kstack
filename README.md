@@ -127,6 +127,7 @@ See [INSTALL.md](INSTALL.md) to install one skill or to refresh the set, and [CA
 | [`migrate-to-shoehorn`](skills/migrate-to-shoehorn/) | Migrate test files from `as` type assertions to @total-typescript/shoehorn. | Matt Pocock |
 | [`pr`](skills/pr/) | Use when writing a PR body. | Matt Pocock |
 | [`research`](skills/research/) | Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. | Matt Pocock |
+| [`resolving-merge-conflicts`](skills/resolving-merge-conflicts/) | Use when you need to resolve an in-progress git merge/rebase conflict. | Matt Pocock |
 | [`retro`](skills/retro/) | Conduct a retrospective on a coding session. | Matt Pocock |
 | [`scaffold-exercises`](skills/scaffold-exercises/) | Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. | Matt Pocock |
 | [`setup-matt-pocock-skills`](skills/setup-matt-pocock-skills/) | Configure this repo for the engineering skills: set up its issue tracker, triage label vocabulary, and domain doc layout. | Matt Pocock |

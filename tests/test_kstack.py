@@ -1,3 +1,4 @@
+import hashlib
 import json
 import shutil
 import subprocess
@@ -147,6 +148,26 @@ class KstackTest(unittest.TestCase):
 
 
 class RepositoryTest(unittest.TestCase):
+    def test_in_use_merge_conflict_skill_is_shipped(self):
+        # Public pack byte contract: the sanitised installed inventory and
+        # Matt Pocock's MIT-licensed upstream commit independently identify
+        # this payload. Reject dropping it or substituting another version.
+        manifest = kstack.load_manifest(REPO_ROOT)
+        skill = next(
+            (skill for skill in manifest["skills"] if skill["name"] == "resolving-merge-conflicts"),
+            None,
+        )
+        self.assertIsNotNone(skill, "The installed Matt Pocock skill must remain available")
+        self.assertEqual(skill["source"], "mattpocock/skills")
+        self.assertEqual(skill["path"], "skills/engineering/resolving-merge-conflicts")
+        self.assertEqual(skill["commit"], "81ddacb08b3878d07ac4fa2de60bd8a53bacba5b")
+        self.assertEqual(skill["license"], "MIT")
+        payload = (REPO_ROOT / "skills" / skill["name"] / "SKILL.md").read_bytes()
+        self.assertEqual(
+            hashlib.sha256(payload).hexdigest(),
+            "c7c9ba81362a786aac05d2223123bf1bd2f8a99c3243a72882ede9c68bedfb24",
+        )
+
     def test_skills_folder_matches_manifest(self):
         manifest = kstack.load_manifest(REPO_ROOT)
         own = manifest["repository"]
