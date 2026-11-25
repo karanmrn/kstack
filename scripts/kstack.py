@@ -324,6 +324,11 @@ def render_catalog(root: Path, manifest: dict) -> str:
             f"| {skill_link(root, skill)} | {family['name']} | {describe(root, skill, manifest)} "
             f"| {source_link(skill, manifest)} | {license_id} |"
         )
+    optional = manifest.get("optional", [])
+    if optional:
+        lines.extend(["", "## Optional skills", "", "These upstream skills are installed only when requested.", "", "| Skill | Family | Source | Licence |", "|---|---|---|---|"])
+        for skill in optional:
+            lines.append(f"| `{skill['name']}` | {skill['family']} | {source_link(skill, manifest)} | {skill['license']} |")
     return "\n".join(lines) + "\n"
 
 

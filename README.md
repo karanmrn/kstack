@@ -1,7 +1,7 @@
 # kstack
 
 kstack is a small, curated set of agent skills for running a dark software factory: agents that plan, build, review and ship code with little human help.
-It holds only skills from five upstream families: [Addy Osmani's agent skills](https://github.com/addyosmani/agent-skills), [pstack](https://github.com/backnotprop/pstack), [tstack](https://github.com/t3dotgg/tstack), [Matt Pocock's skills](https://github.com/mattpocock/skills) and [Kun Chen's tools](https://github.com/kunchenguid).
+Its core pack holds skills from five upstream families: [Addy Osmani's agent skills](https://github.com/addyosmani/agent-skills), [pstack](https://github.com/backnotprop/pstack), [tstack](https://github.com/t3dotgg/tstack), [Matt Pocock's skills](https://github.com/mattpocock/skills) and [Kun Chen's tools](https://github.com/kunchenguid).
 It also includes skills of its own, written from real fleet workflows.
 Each copied skill keeps an `UPSTREAM.md` with its source commit and licence. Star and follow the upstream repositories for the newest versions.
 
@@ -12,7 +12,7 @@ Each copied skill keeps an `UPSTREAM.md` with its source commit and licence. Sta
 npx skills add karanmrn/kstack
 ```
 
-See [INSTALL.md](INSTALL.md) to install one skill or to refresh the set, and [CATALOG.md](CATALOG.md) for full descriptions and licences.
+See [INSTALL.md](INSTALL.md) to install one skill or to refresh the set, and [CATALOG.md](CATALOG.md) for full descriptions and licences. Optional design, research and workflow skills are available separately.
 
 ## Skills
 
