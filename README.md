@@ -5,6 +5,9 @@ It holds only skills from five upstream families: [Addy Osmani's agent skills](h
 It adds five skills of its own, written from real fleet workflows.
 Each copied skill keeps an `UPSTREAM.md` with its source commit and licence. Star and follow the upstream repositories for the newest versions.
 
+[`vision`](skills/vision/) comes from [Kun Chen's vision repository](https://github.com/kunchenguid/vision). It drafts and stress-tests a project vision with an interactive review board.
+[`vision-md-triage-verdict`](skills/vision-md-triage-verdict/) is a separate skill from [grok-ship](https://github.com/kunchenguid/grok-ship), not part of the vision package.
+
 ```bash
 npx skills add karanmrn/kstack
 ```
