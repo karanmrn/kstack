@@ -43,15 +43,16 @@ Do not share other reviewers' findings until the round is complete.
 Do not edit the checkout until every reviewer has finished.
 
 From Claude Code, Codex, or a shell, start these commands concurrently from the target checkout.
-Set `PROMPT` to the complete review request and use separate output files outside the checkout.
+Set `PROMPT` to the complete review request.
+Set `REVIEW_OUTPUT_DIR` to the absolute path of an existing writable directory outside the checkout.
 The Claude commands restrict built-in tools to read-only inspection.
 The Codex sandbox restricts filesystem writes.
 
 ```bash
-codex exec -m gpt-6.2-sol -c 'model_reasoning_effort="high"' -s read-only "$PROMPT" > sol.out & sol_pid=$!
-codex exec -m gpt-6.2-astra -c 'model_reasoning_effort="high"' -s read-only "$PROMPT" > astra.out & astra_pid=$!
-claude -p --model claude-fable-5-2 --effort high --tools 'Read,Grep,Glob' "$PROMPT" > fable.out & fable_pid=$!
-claude -p --model claude-opus-5-5 --effort high --tools 'Read,Grep,Glob' "$PROMPT" > opus.out & opus_pid=$!
+codex exec -m gpt-6.2-sol -c 'model_reasoning_effort="high"' -s read-only "$PROMPT" > "$REVIEW_OUTPUT_DIR/sol.out" & sol_pid=$!
+codex exec -m gpt-6.2-astra -c 'model_reasoning_effort="high"' -s read-only "$PROMPT" > "$REVIEW_OUTPUT_DIR/astra.out" & astra_pid=$!
+claude -p --model claude-fable-5-2 --effort high --tools 'Read,Grep,Glob' -- "$PROMPT" > "$REVIEW_OUTPUT_DIR/fable.out" & fable_pid=$!
+claude -p --model claude-opus-5-5 --effort high --tools 'Read,Grep,Glob' -- "$PROMPT" > "$REVIEW_OUTPUT_DIR/opus.out" & opus_pid=$!
 for pid in "$sol_pid" "$astra_pid" "$fable_pid" "$opus_pid"; do
   if wait "$pid"; then printf "%s: success\n" "$pid"; else printf "%s: failed\n" "$pid"; fi
 done
