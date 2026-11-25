@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Install the core skills and, optionally, a named family of upstream skills."""
+"""Install optional upstream skills from all families or one named family."""
 import argparse
 import json
 import shutil
@@ -7,34 +7,32 @@ import subprocess
 import tempfile
 from pathlib import Path
 
+from kstack import REDISTRIBUTABLE, UPSTREAM_NOTE, detect_license, license_file, upstream_note
+
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[1], help=argparse.SUPPRESS)
-    parser.add_argument('--optional', nargs='?', const='all', help='install all optional skills or one family')
+    parser.add_argument('--optional', required=True, nargs='?', const='all', help='install all optional skills or one family')
     args = parser.parse_args()
     root = args.root.resolve()
     manifest = json.loads((root / 'kstack.json').read_text())
     optional = manifest.get('optional', [])
     families = {s['family'] for s in optional}
-    if args.optional and args.optional != 'all' and args.optional not in families:
+    if args.optional != 'all' and args.optional not in families:
         parser.error('unknown optional family: ' + args.optional)
-    selected = [s for s in optional if args.optional and (args.optional == 'all' or s['family'] == args.optional)]
+    selected = [s for s in optional if args.optional == 'all' or s['family'] == args.optional]
     target = Path.home() / '.agents' / 'skills'
     target.mkdir(parents=True, exist_ok=True)
     installed = 0
     skipped = 0
-    for source in sorted((root / 'skills').iterdir()):
-        if (source / 'SKILL.md').is_file():
-            destination = target / source.name
-            if not destination.exists() and not destination.is_symlink():
-                shutil.copytree(source, destination)
-                installed += 1
-            else:
-                skipped += 1
     with tempfile.TemporaryDirectory(prefix='kstack-optional-') as temp:
         repos = {}
         for skill in selected:
+            destination = target / skill['name']
+            if destination.exists() or destination.is_symlink():
+                skipped += 1
+                continue
             key = (skill['source'], skill['commit'])
             if key not in repos:
                 path = Path(temp) / str(len(repos))
@@ -47,12 +45,15 @@ def main():
             source = repos[key] / skill['path']
             if not (source / 'SKILL.md').is_file():
                 raise SystemExit('Missing upstream skill: ' + skill['name'])
-            destination = target / skill['name']
-            if not destination.exists() and not destination.is_symlink():
-                shutil.copytree(source, destination)
-                installed += 1
-            else:
-                skipped += 1
+            found = license_file(repos[key])
+            license_text = found.read_text(encoding='utf-8') if found else ''
+            license_id = detect_license(license_text)
+            if license_id not in REDISTRIBUTABLE:
+                raise SystemExit('Missing redistributable upstream licence: ' + skill['name'])
+            note = upstream_note(skill, skill['commit'], license_id, license_text, [])
+            shutil.copytree(source, destination)
+            (destination / UPSTREAM_NOTE).write_text(note, encoding='utf-8')
+            installed += 1
     print(f'Installed {installed} skills to {target}. Preserved {skipped} existing folders.')
 
 

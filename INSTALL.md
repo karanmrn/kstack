@@ -33,6 +33,7 @@ npx skills add kunchenguid/kun --skill kun
 The core pack remains the default.
 The optional installer adds skills from pinned upstream commits to `~/.agents/skills`.
 It leaves existing skill folders unchanged.
+Each new folder includes an `UPSTREAM.md` with its source commit and upstream licence notice.
 It requires Python 3, Git and network access.
 
 ```bash
@@ -43,7 +44,7 @@ python3 scripts/install.py --optional workflows
 ```
 
 Run the script from a checkout of kstack.
-Run `python3 scripts/install.py` without the flag to install only the core pack.
+Use `npx skills add karanmrn/kstack` to install the core pack.
 See [CATALOG.md](CATALOG.md) for the optional skills, sources and licences.
 
 ## Update
