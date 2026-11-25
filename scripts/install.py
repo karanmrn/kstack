@@ -51,8 +51,14 @@ def main():
             if license_id not in REDISTRIBUTABLE:
                 raise SystemExit('Missing redistributable upstream licence: ' + skill['name'])
             note = upstream_note(skill, skill['commit'], license_id, license_text, [])
-            shutil.copytree(source, destination)
-            (destination / UPSTREAM_NOTE).write_text(note, encoding='utf-8')
+            with tempfile.TemporaryDirectory(prefix='.kstack-', dir=target) as staging:
+                staged = Path(staging) / skill['name']
+                shutil.copytree(source, staged)
+                (staged / UPSTREAM_NOTE).write_text(note, encoding='utf-8')
+                if destination.exists() or destination.is_symlink():
+                    skipped += 1
+                    continue
+                staged.rename(destination)
             installed += 1
     print(f'Installed {installed} skills to {target}. Preserved {skipped} existing folders.')
 

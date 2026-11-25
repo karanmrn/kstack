@@ -6,8 +6,13 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 SCRIPT = Path(__file__).resolve().parents[1] / 'scripts' / 'install.py'
+sys.path.insert(0, str(SCRIPT.parent))
+
+import install as optional_install
+
 MIT_TEXT = 'MIT License\n\nCopyright (c) 2026 Example\n\nPermission is hereby granted, free of charge, to any person\n'
 
 
@@ -139,6 +144,61 @@ class OptionalInstallTest(unittest.TestCase):
         self.assertEqual((self.target / 'animate/SKILL.md').read_text(), 'custom')
         self.assertTrue((self.target / 'last30days/UPSTREAM.md').is_file())
         self.assertTrue((self.target / 'rpi/UPSTREAM.md').is_file())
+
+    def test_interrupted_install_leaves_no_destination_and_can_retry(self):
+        copyfile = shutil.copyfile
+        write_text = Path.write_text
+        for failure in ['payload', 'provenance']:
+            with self.subTest(failure=failure):
+                home = self.home / failure
+                target = home / '.agents' / 'skills'
+                destination = target / 'animate'
+
+                def copy_payload(source, path, **kwargs):
+                    result = copyfile(source, path, **kwargs)
+                    if failure == 'payload':
+                        raise OSError('Interrupted payload copy')
+                    return result
+
+                def write_note(path, text, **kwargs):
+                    result = write_text(path, text, **kwargs)
+                    if path.name == 'UPSTREAM.md':
+                        raise OSError('Interrupted provenance write')
+                    return result
+
+                argv = ['install.py', '--root', str(self.root), '--optional', 'all']
+                with patch.dict(os.environ, HOME=str(home)), patch.object(sys, 'argv', argv):
+                    with patch.object(shutil, 'copyfile', copy_payload), patch.object(Path, 'write_text', write_note):
+                        with self.assertRaises((OSError, shutil.Error)):
+                            optional_install.main()
+                self.assertFalse(destination.exists())
+                self.assertEqual(list(target.iterdir()), [])
+
+                result = self.run_installer('--optional', 'all', home=home)
+                self.assertEqual(result.returncode, 0, result.stderr)
+                self.assertIn('Installed 3 skills', result.stdout)
+                for name in ['animate', 'last30days', 'rpi']:
+                    self.assertEqual((target / name / 'SKILL.md').read_text(), name)
+                    self.assertIn(MIT_TEXT, (target / name / 'UPSTREAM.md').read_text())
+
+    def test_destination_created_during_staging_is_preserved(self):
+        write_text = Path.write_text
+        destination = self.target / 'animate'
+
+        def write_note(path, text, **kwargs):
+            if path.name == 'UPSTREAM.md':
+                self.assertFalse(destination.exists())
+                destination.mkdir()
+                write_text(destination / 'SKILL.md', 'custom')
+            return write_text(path, text, **kwargs)
+
+        argv = ['install.py', '--root', str(self.root), '--optional', 'design']
+        with patch.dict(os.environ, HOME=str(self.home)), patch.object(sys, 'argv', argv):
+            with patch.object(Path, 'write_text', write_note):
+                optional_install.main()
+        self.assertEqual((destination / 'SKILL.md').read_text(), 'custom')
+        self.assertFalse((destination / 'UPSTREAM.md').exists())
+        self.assertEqual(list(self.target.iterdir()), [destination])
 
 
 if __name__ == '__main__':
