@@ -1,7 +1,7 @@
 # Upstream
 
 This folder is a copy of `skills/poteto-help` from [backnotprop/pstack](https://github.com/backnotprop/pstack/tree/2a5621683e2bbb274efea8b52dd69f5beef6c25f/skills/poteto-help) at commit `2a56216`.
-kstack adds only this file.
+kstack adds this file and removes the recommendation for `reframe`, which this curated pack does not ship.
 Report problems with the skill upstream.
 
 ## Licence: MIT

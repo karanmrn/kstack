@@ -163,7 +163,7 @@ See [INSTALL.md](INSTALL.md) to install one skill or to refresh the set, and [CA
 | [`stow`](skills/stow/) | Sweep the current conversation for durable knowledge - user preferences, project facts, operational gotchas, standing decisions, and... | Kun Chen |
 | [`tasks-axi`](skills/tasks-axi/) | Manage a task backlog through the tasks-axi CLI - add, list, show, start, and complete tasks; track blocked-by dependencies, structured... | Kun Chen |
 | [`vision`](skills/vision/) | Draft and stress-test a repository's vision - in an existing VISION.md, or otherwise as the Vision section of STRATEGY.md - then iterate... | Kun Chen |
-| [`vision-md-triage-verdict`](skills/vision-md-triage-verdict/) | Use before any final triage decision when the repo has a VISION.md. | Kun Chen |
+| [`vision-md-triage-verdict`](skills/vision-md-triage-verdict/) | Use before final triage when VISION.md or STRATEGY.md contains the repository vision. | Kun Chen |
 | [`whathappened`](skills/whathappened/) | Brief what just happened on a topic and map public opinion from X (Twitter) only. | Kun Chen |
 | [`audit-agent-worktrees`](skills/audit-agent-worktrees/) | Audit old git worktrees and clones that coding agents left behind, and delete only the ones whose work is safe. | kstack |
 | [`delegate-to-model`](skills/delegate-to-model/) | Hand a task from the current agent to another model on your subscriptions - Codex CLI, Cursor agent CLI, or any OpenRouter model - and... | kstack |

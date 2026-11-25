@@ -1,7 +1,7 @@
 # Upstream
 
 This folder is a copy of `skills/shipping-and-launch` from [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills/tree/e997ac5b9a74eab332d5e9793bb38a38c8cfdd74/skills/shipping-and-launch) at commit `e997ac5`.
-kstack adds only this file.
+kstack adds this file and updates the shared accessibility checklist to recommend the shipped `frontend-ui-engineering` skill for audits and fixes.
 Report problems with the skill upstream.
 
 ## Licence: MIT

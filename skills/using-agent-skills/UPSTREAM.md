@@ -1,7 +1,7 @@
 # Upstream
 
 This folder is a copy of `skills/using-agent-skills` from [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills/tree/e997ac5b9a74eab332d5e9793bb38a38c8cfdd74/skills/using-agent-skills) at commit `e997ac5`.
-kstack adds only this file.
+kstack adds this file and routes accessibility reviews to the shipped `frontend-ui-engineering` skill and its shared accessibility checklist.
 Report problems with the skill upstream.
 
 ## Licence: MIT

@@ -1,6 +1,6 @@
 # Accessibility Checklist
 
-Quick reference for WCAG 2.2 AA conformance. Use `frontend-ui-engineering` while building interfaces and `accessibility-engineering` when auditing and remediating them.
+Quick reference for WCAG 2.2 AA conformance. Use `frontend-ui-engineering` with this checklist to build, audit, and fix interfaces.
 
 ## Table of Contents
 
