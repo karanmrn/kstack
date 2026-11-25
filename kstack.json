@@ -387,6 +387,11 @@
       "license": "MIT"
     },
     {
+      "name": "hill-climb",
+      "source": "karanmrn/kstack",
+      "path": "skills/hill-climb"
+    },
+    {
       "name": "how",
       "source": "backnotprop/pstack",
       "path": "skills/how",
