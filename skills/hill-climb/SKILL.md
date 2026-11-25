@@ -14,11 +14,13 @@ Do not start this skill if the user's instructions prohibit delegation.
 
 1. Trace the relevant behaviour and choose a realistic workload.
 2. Define one measurable metric, its direction, a target, and a repeatable command.
-3. Choose a regression gate and a round cap before the first round.
-4. Use the user's target and cap when supplied, otherwise choose and report them.
-5. Check that the measurement distinguishes relevant workloads and records errors and work completed.
-6. Freeze the measurement command and workload, then record the baseline and a passing regression gate.
-7. Keep a decision log outside tracked files, with hypothesis, change, before, after, delta, gate, and verdict.
+3. Choose a regression gate and a maximum round count before the first round.
+4. Agree the minimum completed round count with the user before experimentation. Propose 2 when the user supplies no minimum.
+5. Use the user's target and maximum round count when supplied, otherwise choose and report them.
+6. Ensure both round limits are positive integers and the minimum does not exceed the maximum.
+7. Check that the measurement distinguishes relevant workloads and records errors and work completed.
+8. Freeze the measurement command and workload, then record the baseline and a passing regression gate.
+9. Keep a decision log outside tracked files, with hypothesis, change, before, after, delta, gate, and verdict.
 
 If the measurement cannot reproduce the problem or distinguish relevant cases, repair it before freezing it.
 If no meaningful measurement or regression gate can be established, report the blocker instead of claiming improvement.
@@ -78,10 +80,18 @@ Record every iteration in the decision log and do not stack unmeasured changes.
 
 After the fixes, start a fresh review round on the updated checkout.
 Record each reviewer's score and the count of new findings by severity for every round.
-A full round succeeds only if the metric meets its target, no new verified medium-or-higher findings remain, and all scores meet the target score.
+Count a review round as completed only when all four reviewers return usable reviews with scores.
+A run succeeds only when all these conditions hold:
+
+- The completed review round count reaches the agreed minimum.
+- The metric meets its target.
+- No new verified medium-or-higher findings remain.
+- All four scores in the latest completed round meet the target score.
+
 Define the target score before the first round, defaulting to 9/10 when the user gives none.
 If a plateau occurs, inspect the source again and try a different class of hypothesis before stopping.
-Stop at the round cap or when only marginal ideas remain, and report the unmet predicate explicitly.
+Stop when the run succeeds, the maximum round count is reached, or only marginal ideas remain.
+Report an incomplete result and each unmet condition if the run stops before the success predicate is met.
 Do not expand scope merely to increase scores.
 Do not claim consensus or success when a reviewer is missing or the predicate is unmet.
 
@@ -89,6 +99,7 @@ Do not claim consensus or success when a reviewer is missing or the predicate is
 
 Report the frozen metric, target, baseline, final result, regression gate, decision log, and kept and reverted iterations.
 Include outstanding findings, disagreements, missing reviewers, and the reason for stopping.
+Report the agreed minimum, the maximum round count, and the completed review round count.
 If a pull request exists, add a `Council review` section to its description, subject to the user's publishing authority.
 Otherwise include the same table in the final report.
 Include each round's new finding counts by severity alongside the scores.
