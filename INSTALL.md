@@ -2,13 +2,13 @@
 
 ## Install
 
-Install every kstack skill for all your agents:
+Install the core pack for your agents:
 
 ```bash
 npx skills add karanmrn/kstack
 ```
 
-Install one skill. Use the folder name from [CATALOG.md](CATALOG.md):
+Install one core skill. Use its folder name from [CATALOG.md](CATALOG.md):
 
 ```bash
 npx skills add karanmrn/kstack --skill <name>
@@ -44,20 +44,29 @@ python3 scripts/install.py --optional workflows
 ```
 
 Run the script from a checkout of kstack.
-Use `npx skills add karanmrn/kstack` to install the core pack.
 See [CATALOG.md](CATALOG.md) for the optional skills, sources and licences.
 
+To reinstall an optional skill, move its existing folder outside `~/.agents/skills`.
+Then rerun the optional installer for its family.
+The installer uses the commit in `kstack.json`, which may differ from the latest upstream version.
+
 ## Update
+
+Update skills installed through `npx skills`:
 
 ```bash
 npx skills update
 ```
 
 Then restart your agent so it loads the new skill files.
+For optional skills, see [Optional skills](#optional-skills).
 
 ## Maintain this repository
 
-`kstack.json` is the single source of truth. It lists the accepted upstream families and every skill that kstack ships. `scripts/kstack.py` does the rest.
+`kstack.json` is the single source of truth.
+Its `families` and `skills` entries define the core pack.
+Its `optional` entries define the optional skills and their pinned commits.
+The following steps select and copy core skills, then generate documentation for both sets.
 
 1. Select the in-family skills from your installed-skill lock. This keeps kstack's own skills:
 
@@ -91,4 +100,4 @@ Then restart your agent so it loads the new skill files.
    ```
 
 To add a skill of your own, create `skills/<name>/SKILL.md`, add an entry with `"source": "karanmrn/kstack"` to `kstack.json`, and run `render`.
-To accept a new upstream family, add it to `families` in `kstack.json`, then run all four steps.
+To accept a new core upstream family, add it to `families` in `kstack.json`, then run all four steps.

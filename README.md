@@ -12,7 +12,8 @@ Each copied skill keeps an `UPSTREAM.md` with its source commit and licence. Sta
 npx skills add karanmrn/kstack
 ```
 
-See [INSTALL.md](INSTALL.md) to install one skill or to refresh the set, and [CATALOG.md](CATALOG.md) for full descriptions and licences. Optional design, research and workflow skills are available separately.
+See [INSTALL.md](INSTALL.md) for installation and updates, and [CATALOG.md](CATALOG.md) for skill descriptions, sources and licences.
+Optional design, research and workflow skills use the [optional installer](INSTALL.md#optional-skills).
 
 ## Skills
 
