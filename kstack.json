@@ -1114,5 +1114,367 @@
       "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     }
+  ],
+  "optional": [
+    {
+      "name": "animate",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/animate",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    },
+    {
+      "name": "animate-expo",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/animate-expo",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    },
+    {
+      "name": "animation-performance",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/animation-performance",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    },
+    {
+      "name": "animation-vocabulary",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/animation-vocabulary",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    },
+    {
+      "name": "apple-design",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/apple-design",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    },
+    {
+      "name": "ask-sonner",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/ask-sonner",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    },
+    {
+      "name": "better-accessibility",
+      "family": "design",
+      "source": "jakubkrehel/skills",
+      "path": "skills/better-accessibility",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "license": "MIT"
+    },
+    {
+      "name": "better-colors",
+      "family": "design",
+      "source": "jakubkrehel/skills",
+      "path": "skills/better-colors",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "license": "MIT"
+    },
+    {
+      "name": "better-interface",
+      "family": "design",
+      "source": "jakubkrehel/skills",
+      "path": "skills/better-interface",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "license": "MIT"
+    },
+    {
+      "name": "better-layout",
+      "family": "design",
+      "source": "jakubkrehel/skills",
+      "path": "skills/better-layout",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "license": "MIT"
+    },
+    {
+      "name": "better-typography",
+      "family": "design",
+      "source": "jakubkrehel/skills",
+      "path": "skills/better-typography",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "license": "MIT"
+    },
+    {
+      "name": "better-ui",
+      "family": "design",
+      "source": "jakubkrehel/skills",
+      "path": "skills/better-ui",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "license": "MIT"
+    },
+    {
+      "name": "better-writing",
+      "family": "design",
+      "source": "jakubkrehel/skills",
+      "path": "skills/better-writing",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "license": "MIT"
+    },
+    {
+      "name": "break",
+      "family": "design",
+      "source": "jakubkrehel/skills",
+      "path": "skills/break",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "license": "MIT"
+    },
+    {
+      "name": "break-ui",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/break-ui",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    },
+    {
+      "name": "build-design",
+      "family": "design",
+      "source": "jakubkrehel/skills",
+      "path": "skills/build-design",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "license": "MIT"
+    },
+    {
+      "name": "build-iterated-agentic-loop",
+      "family": "workflows",
+      "source": "humanlayer/skills",
+      "path": "plugins/build-iterated-agentic-loop/skills/build-iterated-agentic-loop",
+      "commit": "4d69d20f6e9b57b4fcf0d501ccfb1be961f0f329",
+      "license": "MIT"
+    },
+    {
+      "name": "choreograph",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/choreograph",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    },
+    {
+      "name": "design-control-loop",
+      "family": "workflows",
+      "source": "humanlayer/skills",
+      "path": "plugins/design-control-loop/skills/design-control-loop",
+      "commit": "4d69d20f6e9b57b4fcf0d501ccfb1be961f0f329",
+      "license": "MIT"
+    },
+    {
+      "name": "design-taste-frontend",
+      "family": "design",
+      "source": "Leonxlnx/taste-skill",
+      "path": "skills/taste-skill",
+      "commit": "d1a2bb41d927083ac7118f60cfc9cdf711810ea0",
+      "license": "MIT"
+    },
+    {
+      "name": "emil-design-eng",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/emil-design-eng",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    },
+    {
+      "name": "explain-interface",
+      "family": "design",
+      "source": "jakubkrehel/skills",
+      "path": "skills/explain-interface",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "license": "MIT"
+    },
+    {
+      "name": "find-animation-opportunities",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/find-animation-opportunities",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    },
+    {
+      "name": "gestures",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/gestures",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    },
+    {
+      "name": "icon-set-audit",
+      "family": "design",
+      "source": "shadcn-labs/skills",
+      "path": "skills/icon-set-audit",
+      "commit": "5316082202ab6a7e0779b16b5c58b846c006a460",
+      "license": "MIT"
+    },
+    {
+      "name": "icon-set-extend",
+      "family": "design",
+      "source": "shadcn-labs/skills",
+      "path": "skills/icon-set-extend",
+      "commit": "5316082202ab6a7e0779b16b5c58b846c006a460",
+      "license": "MIT"
+    },
+    {
+      "name": "icon-set-generator",
+      "family": "design",
+      "source": "shadcn-labs/skills",
+      "path": "skills/icon-set-generator",
+      "commit": "5316082202ab6a7e0779b16b5c58b846c006a460",
+      "license": "MIT"
+    },
+    {
+      "name": "improve-animations",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/improve-animations",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    },
+    {
+      "name": "improve-claude-md",
+      "family": "workflows",
+      "source": "humanlayer/skills",
+      "path": "plugins/improve-claude-md/skills/improve-claude-md",
+      "commit": "4d69d20f6e9b57b4fcf0d501ccfb1be961f0f329",
+      "license": "MIT"
+    },
+    {
+      "name": "interface-review",
+      "family": "design",
+      "source": "jakubkrehel/skills",
+      "path": "skills/interface-review",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "license": "MIT"
+    },
+    {
+      "name": "last30days",
+      "family": "research",
+      "source": "mvanhorn/last30days-skill",
+      "path": "skills/last30days",
+      "commit": "7c2e1c2b099b13abd4397910168c4f53e638bb21",
+      "license": "MIT"
+    },
+    {
+      "name": "learn-taste",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/learn-taste",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    },
+    {
+      "name": "mobile-native",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/mobile-native",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    },
+    {
+      "name": "narrow-react-prop-types",
+      "family": "workflows",
+      "source": "humanlayer/skills",
+      "path": "plugins/narrow-react-prop-types/skills/narrow-react-prop-types",
+      "commit": "4d69d20f6e9b57b4fcf0d501ccfb1be961f0f329",
+      "license": "MIT"
+    },
+    {
+      "name": "pick-ui-library",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/pick-ui-library",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    },
+    {
+      "name": "prototype",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/prototype",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    },
+    {
+      "name": "remove-animations",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/remove-animations",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    },
+    {
+      "name": "review-animations",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/review-animations",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    },
+    {
+      "name": "rpi",
+      "family": "workflows",
+      "source": "humanlayer/skills",
+      "path": "plugins/rpi/skills/rpi",
+      "commit": "4d69d20f6e9b57b4fcf0d501ccfb1be961f0f329",
+      "license": "MIT"
+    },
+    {
+      "name": "show-me",
+      "family": "workflows",
+      "source": "humanlayer/skills",
+      "path": "plugins/show-me/skills/show-me",
+      "commit": "4d69d20f6e9b57b4fcf0d501ccfb1be961f0f329",
+      "license": "MIT"
+    },
+    {
+      "name": "state-machine",
+      "family": "design",
+      "source": "jakubkrehel/skills",
+      "path": "skills/state-machine",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "license": "MIT"
+    },
+    {
+      "name": "typesafe-ai",
+      "family": "research",
+      "source": "typesafe-ai/skills",
+      "path": "skills/typesafe-ai",
+      "commit": "302eea662c54bca6730873fe245bec1d69ebc23d",
+      "license": "MIT"
+    },
+    {
+      "name": "variant",
+      "family": "design",
+      "source": "jakubkrehel/skills",
+      "path": "skills/variant",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "license": "MIT"
+    },
+    {
+      "name": "visual-pr",
+      "family": "workflows",
+      "source": "humanlayer/skills",
+      "path": "plugins/visual-pr/skills/visual-pr",
+      "commit": "4d69d20f6e9b57b4fcf0d501ccfb1be961f0f329",
+      "license": "MIT"
+    },
+    {
+      "name": "write-swift",
+      "family": "design",
+      "source": "emilkowalski/skills",
+      "path": "skills/write-swift",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "license": "MIT"
+    }
   ]
 }

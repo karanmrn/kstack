@@ -160,3 +160,55 @@ Each vendored folder has an `UPSTREAM.md` with its source commit and licence.
 | [`mac-disk-cleanup`](skills/mac-disk-cleanup/) | kstack | Free disk space on a developer Mac safely. Measure first, back up what cannot be rebuilt, then delete. Use when a Mac is low on disk space, or when you clean caches, build output, simulators, containers or old agent worktrees. | kstack | kstack |
 | [`openrouter`](skills/openrouter/) | kstack | List, ask, compare and launch OpenRouter models from the shell. Use when the user types /openrouter, asks which models exist or what they cost, wants one answer from a named non-Claude model, wants two models compared on one prompt, or wants to start a coding session on another model. | kstack | kstack |
 | [`supervise-agent-fleet`](skills/supervise-agent-fleet/) | kstack | Supervise several coding agents that work in parallel and ship through pull requests. Use when you dispatch tasks to agents, watch their progress, review their PRs, or land a batch of PRs as a merge wave. | kstack | kstack |
+
+## Optional skills
+
+These upstream skills are installed only when requested.
+
+| Skill | Family | Source | Licence |
+|---|---|---|---|
+| `animate` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/animate) | MIT |
+| `animate-expo` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/animate-expo) | MIT |
+| `animation-performance` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/animation-performance) | MIT |
+| `animation-vocabulary` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/animation-vocabulary) | MIT |
+| `apple-design` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/apple-design) | MIT |
+| `ask-sonner` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/ask-sonner) | MIT |
+| `better-accessibility` | design | [jakubkrehel/skills](https://github.com/jakubkrehel/skills/tree/672ae44ace6aaed65b86cbb1e2fd6fbea0e79578/skills/better-accessibility) | MIT |
+| `better-colors` | design | [jakubkrehel/skills](https://github.com/jakubkrehel/skills/tree/672ae44ace6aaed65b86cbb1e2fd6fbea0e79578/skills/better-colors) | MIT |
+| `better-interface` | design | [jakubkrehel/skills](https://github.com/jakubkrehel/skills/tree/672ae44ace6aaed65b86cbb1e2fd6fbea0e79578/skills/better-interface) | MIT |
+| `better-layout` | design | [jakubkrehel/skills](https://github.com/jakubkrehel/skills/tree/672ae44ace6aaed65b86cbb1e2fd6fbea0e79578/skills/better-layout) | MIT |
+| `better-typography` | design | [jakubkrehel/skills](https://github.com/jakubkrehel/skills/tree/672ae44ace6aaed65b86cbb1e2fd6fbea0e79578/skills/better-typography) | MIT |
+| `better-ui` | design | [jakubkrehel/skills](https://github.com/jakubkrehel/skills/tree/672ae44ace6aaed65b86cbb1e2fd6fbea0e79578/skills/better-ui) | MIT |
+| `better-writing` | design | [jakubkrehel/skills](https://github.com/jakubkrehel/skills/tree/672ae44ace6aaed65b86cbb1e2fd6fbea0e79578/skills/better-writing) | MIT |
+| `break` | design | [jakubkrehel/skills](https://github.com/jakubkrehel/skills/tree/672ae44ace6aaed65b86cbb1e2fd6fbea0e79578/skills/break) | MIT |
+| `break-ui` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/break-ui) | MIT |
+| `build-design` | design | [jakubkrehel/skills](https://github.com/jakubkrehel/skills/tree/672ae44ace6aaed65b86cbb1e2fd6fbea0e79578/skills/build-design) | MIT |
+| `build-iterated-agentic-loop` | workflows | [humanlayer/skills](https://github.com/humanlayer/skills/tree/4d69d20f6e9b57b4fcf0d501ccfb1be961f0f329/plugins/build-iterated-agentic-loop/skills/build-iterated-agentic-loop) | MIT |
+| `choreograph` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/choreograph) | MIT |
+| `design-control-loop` | workflows | [humanlayer/skills](https://github.com/humanlayer/skills/tree/4d69d20f6e9b57b4fcf0d501ccfb1be961f0f329/plugins/design-control-loop/skills/design-control-loop) | MIT |
+| `design-taste-frontend` | design | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill/tree/d1a2bb41d927083ac7118f60cfc9cdf711810ea0/skills/taste-skill) | MIT |
+| `emil-design-eng` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/emil-design-eng) | MIT |
+| `explain-interface` | design | [jakubkrehel/skills](https://github.com/jakubkrehel/skills/tree/672ae44ace6aaed65b86cbb1e2fd6fbea0e79578/skills/explain-interface) | MIT |
+| `find-animation-opportunities` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/find-animation-opportunities) | MIT |
+| `gestures` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/gestures) | MIT |
+| `icon-set-audit` | design | [shadcn-labs/skills](https://github.com/shadcn-labs/skills/tree/5316082202ab6a7e0779b16b5c58b846c006a460/skills/icon-set-audit) | MIT |
+| `icon-set-extend` | design | [shadcn-labs/skills](https://github.com/shadcn-labs/skills/tree/5316082202ab6a7e0779b16b5c58b846c006a460/skills/icon-set-extend) | MIT |
+| `icon-set-generator` | design | [shadcn-labs/skills](https://github.com/shadcn-labs/skills/tree/5316082202ab6a7e0779b16b5c58b846c006a460/skills/icon-set-generator) | MIT |
+| `improve-animations` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/improve-animations) | MIT |
+| `improve-claude-md` | workflows | [humanlayer/skills](https://github.com/humanlayer/skills/tree/4d69d20f6e9b57b4fcf0d501ccfb1be961f0f329/plugins/improve-claude-md/skills/improve-claude-md) | MIT |
+| `interface-review` | design | [jakubkrehel/skills](https://github.com/jakubkrehel/skills/tree/672ae44ace6aaed65b86cbb1e2fd6fbea0e79578/skills/interface-review) | MIT |
+| `last30days` | research | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill/tree/7c2e1c2b099b13abd4397910168c4f53e638bb21/skills/last30days) | MIT |
+| `learn-taste` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/learn-taste) | MIT |
+| `mobile-native` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/mobile-native) | MIT |
+| `narrow-react-prop-types` | workflows | [humanlayer/skills](https://github.com/humanlayer/skills/tree/4d69d20f6e9b57b4fcf0d501ccfb1be961f0f329/plugins/narrow-react-prop-types/skills/narrow-react-prop-types) | MIT |
+| `pick-ui-library` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/pick-ui-library) | MIT |
+| `prototype` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/prototype) | MIT |
+| `remove-animations` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/remove-animations) | MIT |
+| `review-animations` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/review-animations) | MIT |
+| `rpi` | workflows | [humanlayer/skills](https://github.com/humanlayer/skills/tree/4d69d20f6e9b57b4fcf0d501ccfb1be961f0f329/plugins/rpi/skills/rpi) | MIT |
+| `show-me` | workflows | [humanlayer/skills](https://github.com/humanlayer/skills/tree/4d69d20f6e9b57b4fcf0d501ccfb1be961f0f329/plugins/show-me/skills/show-me) | MIT |
+| `state-machine` | design | [jakubkrehel/skills](https://github.com/jakubkrehel/skills/tree/672ae44ace6aaed65b86cbb1e2fd6fbea0e79578/skills/state-machine) | MIT |
+| `typesafe-ai` | research | [typesafe-ai/skills](https://github.com/typesafe-ai/skills/tree/302eea662c54bca6730873fe245bec1d69ebc23d/skills/typesafe-ai) | MIT |
+| `variant` | design | [jakubkrehel/skills](https://github.com/jakubkrehel/skills/tree/672ae44ace6aaed65b86cbb1e2fd6fbea0e79578/skills/variant) | MIT |
+| `visual-pr` | workflows | [humanlayer/skills](https://github.com/humanlayer/skills/tree/4d69d20f6e9b57b4fcf0d501ccfb1be961f0f329/plugins/visual-pr/skills/visual-pr) | MIT |
+| `write-swift` | design | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/write-swift) | MIT |
