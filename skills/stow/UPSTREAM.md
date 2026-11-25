@@ -1,6 +1,6 @@
 # Upstream
 
-This folder is a copy of `skills/stow` from [kunchenguid/firstmate](https://github.com/kunchenguid/firstmate/tree/427056c4181c41074ad24f051f79919330df0fa5/skills/stow) at commit `427056c`.
+This folder is a copy of `skills/stow` from [kunchenguid/firstmate](https://github.com/kunchenguid/firstmate/tree/2f000eb4301c2d733bef163621e9ac3d740f21cf/skills/stow) at commit `2f000eb`.
 kstack adds only this file.
 Report problems with the skill upstream.
 

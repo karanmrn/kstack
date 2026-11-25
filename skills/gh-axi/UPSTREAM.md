@@ -1,6 +1,6 @@
 # Upstream
 
-This folder is a copy of `skills/gh-axi` from [kunchenguid/gh-axi](https://github.com/kunchenguid/gh-axi/tree/a1c69359a277a36e1246aab9fa047a92cf27ca48/skills/gh-axi) at commit `a1c6935`.
+This folder is a copy of `skills/gh-axi` from [kunchenguid/gh-axi](https://github.com/kunchenguid/gh-axi/tree/5a526599c9fa5a76b650079f5e9dbb1c1874a6ce/skills/gh-axi) at commit `5a52659`.
 kstack adds only this file.
 Report problems with the skill upstream.
 

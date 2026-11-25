@@ -1,6 +1,6 @@
 # Upstream
 
-This folder is a copy of `skills/quota-axi` from [kunchenguid/quota-axi](https://github.com/kunchenguid/quota-axi/tree/5734c41eee52eb9a80ba67f47269ebc06c0c41fc/skills/quota-axi) at commit `5734c41`.
+This folder is a copy of `skills/quota-axi` from [kunchenguid/quota-axi](https://github.com/kunchenguid/quota-axi/tree/053d364b856c2cd469882a53f3aaf27096fa23d8/skills/quota-axi) at commit `053d364`.
 kstack adds only this file.
 Report problems with the skill upstream.
 

@@ -1,6 +1,6 @@
 # Upstream
 
-This folder is a copy of `skills/spec-driven-development` from [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills/tree/39b723ceebf81474d0557c1fecd01eddab585563/skills/spec-driven-development) at commit `39b723c`.
+This folder is a copy of `skills/spec-driven-development` from [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills/tree/e997ac5b9a74eab332d5e9793bb38a38c8cfdd74/skills/spec-driven-development) at commit `e997ac5`.
 kstack adds only this file.
 Report problems with the skill upstream.
 

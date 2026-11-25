@@ -1,6 +1,6 @@
 # Upstream
 
-This folder is a copy of `skills/gnhf` from [kunchenguid/gnhf](https://github.com/kunchenguid/gnhf/tree/3e1179f8460ac53779063d1ca9dfa2c02ec02e38/skills/gnhf) at commit `3e1179f`.
+This folder is a copy of `skills/gnhf` from [kunchenguid/gnhf](https://github.com/kunchenguid/gnhf/tree/98d6a5f3d588ee6e241558f06dfc0d495e6354d6/skills/gnhf) at commit `98d6a5f`.
 kstack adds only this file.
 Report problems with the skill upstream.
 

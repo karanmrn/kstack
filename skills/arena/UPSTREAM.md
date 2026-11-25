@@ -1,6 +1,6 @@
 # Upstream
 
-This folder is a copy of `skills/arena` from [backnotprop/pstack](https://github.com/backnotprop/pstack/tree/74bcc61bd216687b1d6d480c28f109adfc9824ec/skills/arena) at commit `74bcc61`.
+This folder is a copy of `skills/arena` from [backnotprop/pstack](https://github.com/backnotprop/pstack/tree/2a5621683e2bbb274efea8b52dd69f5beef6c25f/skills/arena) at commit `2a56216`.
 kstack adds only this file.
 Report problems with the skill upstream.
 
