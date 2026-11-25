@@ -167,6 +167,7 @@ See [INSTALL.md](INSTALL.md) to install one skill or to refresh the set, and [CA
 | [`whathappened`](skills/whathappened/) | Brief what just happened on a topic and map public opinion from X (Twitter) only. | Kun Chen |
 | [`audit-agent-worktrees`](skills/audit-agent-worktrees/) | Audit old git worktrees and clones that coding agents left behind, and delete only the ones whose work is safe. | kstack |
 | [`delegate-to-model`](skills/delegate-to-model/) | Hand a task from the current agent to another model on your subscriptions - Codex CLI, Cursor agent CLI, or any OpenRouter model - and... | kstack |
+| [`hill-climb`](skills/hill-climb/) | Use when the user asks for hill climb or an iterative four-model review against a measurable target. | kstack |
 | [`mac-disk-cleanup`](skills/mac-disk-cleanup/) | Free disk space on a developer Mac safely. | kstack |
 | [`openrouter`](skills/openrouter/) | List, ask, compare and launch OpenRouter models from the shell. | kstack |
 | [`supervise-agent-fleet`](skills/supervise-agent-fleet/) | Supervise several coding agents that work in parallel and ship through pull requests. | kstack |
