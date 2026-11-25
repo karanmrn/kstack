@@ -15,6 +15,18 @@ npx skills add karanmrn/kstack
 See [INSTALL.md](INSTALL.md) for installation and updates, and [CATALOG.md](CATALOG.md) for skill descriptions, sources and licences.
 Optional design, research and workflow skills use the [optional installer](INSTALL.md#optional-skills).
 
+## Fork and use
+
+1. Fork [kstack on GitHub](https://github.com/karanmrn/kstack).
+2. Install your fork with `npx skills add <your-github-user>/kstack`. See [INSTALL.md](INSTALL.md) for other options.
+3. Keep the copyright and licence notices when you copy or share the code or skills.
+
+## License
+
+kstack's own code and documentation are licensed under the [MIT License](LICENSE).
+Third-party skills retain their upstream licences, recorded in each vendored skill's `UPSTREAM.md` and in [kstack.json](kstack.json).
+The referenced [kun](https://github.com/kunchenguid/kun) skill has no recorded licence and is not vendored.
+
 ## Skills
 
 <!-- kstack:skills:start -->
