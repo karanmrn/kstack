@@ -1,7 +1,8 @@
 # Upstream
 
 This folder is a copy of `skills/vision-md-triage-verdict` from [kunchenguid/grok-ship](https://github.com/kunchenguid/grok-ship/tree/87ef9325de1e943c98a7726fc1f6f95b608644e6/skills/vision-md-triage-verdict) at commit `87ef932`.
-kstack adds this file. kstack also puts the `description` value of the `SKILL.md` frontmatter in quotes, because the upstream value is not valid YAML. Nothing else changes.
+kstack adds this file and quotes the `description` frontmatter value because the upstream value is not valid YAML.
+kstack also updates discovery and triage instructions to follow the `vision` skill's document selection, section boundaries, and saved heading levels in `STRATEGY.md`.
 Report problems with the skill upstream.
 
 ## Licence: MIT

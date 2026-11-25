@@ -1,6 +1,6 @@
 # Upstream
 
-This folder is a copy of `skills/no-mistakes` from [kunchenguid/no-mistakes](https://github.com/kunchenguid/no-mistakes/tree/0a283bfbfa48b901cfe4f8488398b6babaabf75b/skills/no-mistakes) at commit `0a283bf`.
+This folder is a copy of `skills/no-mistakes` from [kunchenguid/no-mistakes](https://github.com/kunchenguid/no-mistakes/tree/ae5285f93c6769866ee1ef2176564d302d1c9a64/skills/no-mistakes) at commit `ae5285f`.
 kstack adds only this file.
 Report problems with the skill upstream.
 

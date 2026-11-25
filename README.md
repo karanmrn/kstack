@@ -87,7 +87,7 @@ See [INSTALL.md](INSTALL.md) to install one skill or to refresh the set, and [CA
 | [`principle-test-behavior-not-implementation`](skills/principle-test-behavior-not-implementation/) | Apply when you write, change, or keep a test. | pstack |
 | [`principle-type-system-discipline`](skills/principle-type-system-discipline/) | Apply when designing types, reviewing a function signature, or writing code in any statically-typed language. | pstack |
 | [`recall`](skills/recall/) | Reconstruct your recent working context from your own chat history, live state, and the shared record (user reports, prior fixes,... | pstack |
-| [`reflect`](skills/reflect/) | Spawn three parallel review subagents over the active transcript, surface learnings, and route each to a concrete edit on an existing skill. | pstack |
+| [`reflect`](skills/reflect/) | Mine the active transcript for durable learnings and route each to a concrete edit on an existing skill. | pstack |
 | [`setup-pstack`](skills/setup-pstack/) | Configure which models pstack uses per role and at what reasoning budget. | pstack |
 | [`sharpen`](skills/sharpen/) | Make a task deeper, not bigger, then rewrite the prompt. | pstack |
 | [`show-me-your-work`](skills/show-me-your-work/) | Keep a reviewable decision trail for long-running or unattended work: a TSV log with one row per decision (what, why, evidence, result). | pstack |
@@ -109,7 +109,7 @@ See [INSTALL.md](INSTALL.md) to install one skill or to refresh the set, and [CA
 | [`sol-loop`](skills/sol-loop/) | Use when the user says "sol loop". | tstack |
 | [`takeover`](skills/takeover/) | Take over existing work. | tstack |
 | [`ask-matt`](skills/ask-matt/) | Ask which skill or flow fits your situation. | Matt Pocock |
-| [`chief-of-staff`](skills/chief-of-staff/) | Pursue a long-running goal in a single session by co-ordinating subagents. | Matt Pocock |
+| [`chief-of-staff`](skills/chief-of-staff/) | Delegate the work to fresh subagents and remember what it taught you in a dated wiki, so the next session picks up the thread. | Matt Pocock |
 | [`claude-handoff`](skills/claude-handoff/) | Hand the current conversation off to a fresh background agent that picks up the work immediately. | Matt Pocock |
 | [`code-review`](skills/code-review/) | Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repo's... | Matt Pocock |
 | [`codebase-design`](skills/codebase-design/) | Shared vocabulary for designing deep modules. | Matt Pocock |
@@ -162,8 +162,8 @@ See [INSTALL.md](INSTALL.md) to install one skill or to refresh the set, and [CA
 | [`release-ci`](skills/release-ci/) | Release automation, CI workflows, release-please configuration, contribution gate, and lockfile formatting in quota-axi. | Kun Chen |
 | [`stow`](skills/stow/) | Sweep the current conversation for durable knowledge - user preferences, project facts, operational gotchas, standing decisions, and... | Kun Chen |
 | [`tasks-axi`](skills/tasks-axi/) | Manage a task backlog through the tasks-axi CLI - add, list, show, start, and complete tasks; track blocked-by dependencies, structured... | Kun Chen |
-| [`vision`](skills/vision/) | Draft and stress-test a VISION.md for a repository, then iterate with the author on an interactive review board until approved. | Kun Chen |
-| [`vision-md-triage-verdict`](skills/vision-md-triage-verdict/) | Use before any final triage decision when the repo has a VISION.md. | Kun Chen |
+| [`vision`](skills/vision/) | Draft and stress-test a repository's vision - in an existing VISION.md, or otherwise as the Vision section of STRATEGY.md - then iterate... | Kun Chen |
+| [`vision-md-triage-verdict`](skills/vision-md-triage-verdict/) | Use before final triage when VISION.md or STRATEGY.md contains the repository vision. | Kun Chen |
 | [`whathappened`](skills/whathappened/) | Brief what just happened on a topic and map public opinion from X (Twitter) only. | Kun Chen |
 | [`audit-agent-worktrees`](skills/audit-agent-worktrees/) | Audit old git worktrees and clones that coding agents left behind, and delete only the ones whose work is safe. | kstack |
 | [`delegate-to-model`](skills/delegate-to-model/) | Hand a task from the current agent to another model on your subscriptions - Codex CLI, Cursor agent CLI, or any OpenRouter model - and... | kstack |

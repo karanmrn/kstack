@@ -1,7 +1,7 @@
 # Upstream
 
-This folder is a copy of `skills/provider-adapters` from [kunchenguid/quota-axi](https://github.com/kunchenguid/quota-axi/tree/5734c41eee52eb9a80ba67f47269ebc06c0c41fc/skills/provider-adapters) at commit `5734c41`.
-kstack adds only this file.
+This folder is a copy of `skills/provider-adapters` from [kunchenguid/quota-axi](https://github.com/kunchenguid/quota-axi/tree/053d364b856c2cd469882a53f3aaf27096fa23d8/skills/provider-adapters) at commit `053d364`.
+kstack adds this file and points the Codex homes link to the upstream README at the recorded commit.
 Report problems with the skill upstream.
 
 ## Licence: MIT

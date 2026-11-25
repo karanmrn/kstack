@@ -1,6 +1,6 @@
 # Upstream
 
-This folder is a copy of `skills/in-progress/chief-of-staff` from [mattpocock/skills](https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/in-progress/chief-of-staff) at commit `5863806`.
+This folder is a copy of `skills/in-progress/chief-of-staff` from [mattpocock/skills](https://github.com/mattpocock/skills/tree/d65391149dbb5fe76478e76fa8d5122b2aa5a70e/skills/in-progress/chief-of-staff) at commit `d653911`.
 kstack adds only this file.
 Report problems with the skill upstream.
 

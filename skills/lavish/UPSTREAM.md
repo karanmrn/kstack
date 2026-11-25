@@ -1,6 +1,6 @@
 # Upstream
 
-This folder is a copy of `skills/lavish` from [kunchenguid/lavish-axi](https://github.com/kunchenguid/lavish-axi/tree/fa70396c75a6b792be859e036984fcfd6ace9792/skills/lavish) at commit `fa70396`.
+This folder is a copy of `skills/lavish` from [kunchenguid/lavish-axi](https://github.com/kunchenguid/lavish-axi/tree/2b32b92ec8e8fcfb7069af3e1a89c0cabc3bf9aa/skills/lavish) at commit `2b32b92`.
 kstack adds only this file.
 Report problems with the skill upstream.
 

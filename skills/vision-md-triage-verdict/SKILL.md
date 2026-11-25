@@ -1,17 +1,27 @@
 ---
 name: VISION.md triage verdict
-description: "Use before any final triage decision when the repo has a VISION.md. Read it in full. Per-rule aligns / does not align / cannot tell, with evidence. Claims are not enough. Cannot-tell / inconclusive / undecided is no verdict and blocks auto-merge. Write a contract-class verdict next to the per-rule list: restore | new-default | opt-in | cannot-tell. new-default and cannot-tell block auto-merge."
+description: "Use before final triage when VISION.md or STRATEGY.md contains the repository vision. Read the vision document in full. Per-rule aligns / does not align / cannot tell, with evidence. Claims are not enough. Cannot-tell / inconclusive / undecided is no verdict and blocks auto-merge. Write a contract-class verdict next to the per-rule list: restore | new-default | opt-in | cannot-tell. new-default and cannot-tell block auto-merge."
 ---
 
 # VISION.md triage verdict
 
-If the repository has a `VISION.md` on the default branch, read that file in full before any final triage decision. If it does not exist, skip this skill.
+Before any final triage decision, select the vision document from the repository root on the default branch, as the `vision` skill does:
 
-Do not special-case a repository. The file in front of you is the only source of rules.
+1. If `VISION.md` exists, use the whole file. It takes priority over `STRATEGY.md`.
+2. Otherwise, use the Vision section of `STRATEGY.md`, if present.
+3. If neither contains a vision document, skip this skill. Absence is not alignment.
+
+In `STRATEGY.md`, the section starts at `## Vision`, in any letter case, outside code blocks. It ends before the next `#` or `##` heading outside code blocks, or at the end of the file. If multiple Vision sections exist, report `cannot tell` and ask which section is authoritative. Do not auto-merge or select one without an answer.
+
+Read the selected vision document in full. Other sections of `STRATEGY.md` are background evidence, not vision rules.
+
+Do not special-case a repository. The selected vision document is the only source of rules.
 
 ## Rules
 
-Treat each `##` heading in `VISION.md` as one rule. If there are no `##` headings, treat the document as a single rule named after the `#` title, or as `VISION.md` if that is also missing.
+In `VISION.md`, treat each `##` heading outside code blocks as one rule. If there are none, use one rule named after the `#` title, or `VISION.md` if the title is missing.
+
+In the Vision section of `STRATEGY.md`, treat each `###` heading outside code blocks as one rule. These correspond to the draft's `##` headings, which the `vision` skill shifts down one level when saving. If there are none, treat the section as one rule named `Vision`. Do not treat sibling strategy sections as rules.
 
 For every rule, return exactly one of:
 
@@ -52,6 +62,6 @@ Contract-class: restore | new-default | opt-in | cannot-tell. <evidence>
 - Do not close as decided on a cannot-tell rule
 - Do not auto-merge on new-default or contract-class cannot-tell
 - Do not treat a VISION motive or "this is a bugfix" as restore when the unconfigured run now does something the promise did not include
-- Do not decide from memory of another repo's VISION.md
+- Do not decide from memory of another repo's vision document
 - Do not treat a missing file as alignment
 - Do not collapse several headings into one vibe

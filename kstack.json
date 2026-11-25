@@ -58,28 +58,28 @@
       "name": "api-and-interface-design",
       "source": "addyosmani/agent-skills",
       "path": "skills/api-and-interface-design",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "architect",
       "source": "backnotprop/pstack",
       "path": "skills/architect",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "arena",
       "source": "backnotprop/pstack",
       "path": "skills/arena",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "ask-matt",
       "source": "mattpocock/skills",
       "path": "skills/engineering/ask-matt",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
@@ -91,14 +91,14 @@
       "name": "automate-me",
       "source": "backnotprop/pstack",
       "path": "skills/automate-me",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "axi",
       "source": "kunchenguid/axi",
       "path": ".agents/skills/axi",
-      "commit": "8033e86e32f23d272ef40b6f7e139a2811bf1459",
+      "commit": "039ebe11a0c84c13ff8013de850746a3d0f4e350",
       "license": "MIT"
     },
     {
@@ -112,42 +112,42 @@
       "name": "benchmark-checklist",
       "source": "backnotprop/pstack",
       "path": "skills/benchmark-checklist",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "blast-radius",
       "source": "backnotprop/pstack",
       "path": "skills/blast-radius",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "bro",
       "source": "backnotprop/pstack",
       "path": "skills/bro",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "browser-testing-with-devtools",
       "source": "addyosmani/agent-skills",
       "path": "skills/browser-testing-with-devtools",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "cache-architecture",
       "source": "kunchenguid/quota-axi",
       "path": "skills/cache-architecture",
-      "commit": "5734c41eee52eb9a80ba67f47269ebc06c0c41fc",
+      "commit": "053d364b856c2cd469882a53f3aaf27096fa23d8",
       "license": "MIT"
     },
     {
       "name": "chief-of-staff",
       "source": "mattpocock/skills",
       "path": "skills/in-progress/chief-of-staff",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
@@ -161,42 +161,42 @@
       "name": "ci-cd-and-automation",
       "source": "addyosmani/agent-skills",
       "path": "skills/ci-cd-and-automation",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "claude-handoff",
       "source": "mattpocock/skills",
       "path": "skills/in-progress/claude-handoff",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "code-review",
       "source": "mattpocock/skills",
       "path": "skills/engineering/code-review",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "code-review-and-quality",
       "source": "addyosmani/agent-skills",
       "path": "skills/code-review-and-quality",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "code-simplification",
       "source": "addyosmani/agent-skills",
       "path": "skills/code-simplification",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "codebase-design",
       "source": "mattpocock/skills",
       "path": "skills/engineering/codebase-design",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
@@ -210,21 +210,21 @@
       "name": "constraint-driven-development",
       "source": "addyosmani/agent-skills",
       "path": "skills/constraint-driven-development",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "context-engineering",
       "source": "addyosmani/agent-skills",
       "path": "skills/context-engineering",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "correct",
       "source": "backnotprop/pstack",
       "path": "skills/correct",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
@@ -238,21 +238,21 @@
       "name": "create-formal-verification-skill",
       "source": "backnotprop/pstack",
       "path": "skills/create-formal-verification-skill",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "create-verification-skill",
       "source": "backnotprop/pstack",
       "path": "skills/create-verification-skill",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "debugging-and-error-recovery",
       "source": "addyosmani/agent-skills",
       "path": "skills/debugging-and-error-recovery",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
@@ -264,42 +264,42 @@
       "name": "deprecation-and-migration",
       "source": "addyosmani/agent-skills",
       "path": "skills/deprecation-and-migration",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "diagnosing-bugs",
       "source": "mattpocock/skills",
       "path": "skills/engineering/diagnosing-bugs",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "documentation-and-adrs",
       "source": "addyosmani/agent-skills",
       "path": "skills/documentation-and-adrs",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "domain-modeling",
       "source": "mattpocock/skills",
       "path": "skills/engineering/domain-modeling",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "doubt-driven-development",
       "source": "addyosmani/agent-skills",
       "path": "skills/doubt-driven-development",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "figure-it-out",
       "source": "backnotprop/pstack",
       "path": "skills/figure-it-out",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
@@ -313,7 +313,7 @@
       "name": "frontend-ui-engineering",
       "source": "addyosmani/agent-skills",
       "path": "skills/frontend-ui-engineering",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
@@ -334,133 +334,133 @@
       "name": "gh-axi",
       "source": "kunchenguid/gh-axi",
       "path": "skills/gh-axi",
-      "commit": "a1c69359a277a36e1246aab9fa047a92cf27ca48",
+      "commit": "5a526599c9fa5a76b650079f5e9dbb1c1874a6ce",
       "license": "MIT"
     },
     {
       "name": "git-guardrails-claude-code",
       "source": "mattpocock/skills",
       "path": "skills/misc/git-guardrails-claude-code",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "git-workflow-and-versioning",
       "source": "addyosmani/agent-skills",
       "path": "skills/git-workflow-and-versioning",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "gnhf",
       "source": "kunchenguid/gnhf",
       "path": "skills/gnhf",
-      "commit": "3e1179f8460ac53779063d1ca9dfa2c02ec02e38",
+      "commit": "98d6a5f3d588ee6e241558f06dfc0d495e6354d6",
       "license": "MIT"
     },
     {
       "name": "grill-me",
       "source": "mattpocock/skills",
       "path": "skills/productivity/grill-me",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "grill-with-docs",
       "source": "mattpocock/skills",
       "path": "skills/engineering/grill-with-docs",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "grilling",
       "source": "mattpocock/skills",
       "path": "skills/productivity/grilling",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "handoff",
       "source": "mattpocock/skills",
       "path": "skills/productivity/handoff",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "how",
       "source": "backnotprop/pstack",
       "path": "skills/how",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "idea-refine",
       "source": "addyosmani/agent-skills",
       "path": "skills/idea-refine",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "implement",
       "source": "mattpocock/skills",
       "path": "skills/engineering/implement",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "implement-spec",
       "source": "mattpocock/skills",
       "path": "skills/engineering/implement-spec",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "improve-codebase-architecture",
       "source": "mattpocock/skills",
       "path": "skills/engineering/improve-codebase-architecture",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "in-your-own-words",
       "source": "backnotprop/pstack",
       "path": "skills/in-your-own-words",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "incremental-implementation",
       "source": "addyosmani/agent-skills",
       "path": "skills/incremental-implementation",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "interrogate",
       "source": "backnotprop/pstack",
       "path": "skills/interrogate",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "interview-me",
       "source": "addyosmani/agent-skills",
       "path": "skills/interview-me",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "ketchup",
       "source": "backnotprop/pstack",
       "path": "skills/ketchup",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "ketchup-video",
       "source": "backnotprop/pstack",
       "path": "skills/ketchup-video",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
@@ -468,14 +468,14 @@
       "source": "kunchenguid/kun",
       "path": "skills/kun",
       "summary": "Summon Kun to solve your problems. Upstream has no licence, so kstack links it instead of copying it.",
-      "commit": "d6ca0c7e58d50ac84afba4d074e112ceae0042a8",
+      "commit": "20e422000a244727f1d04c26da26ad55f9b21482",
       "license": "none"
     },
     {
       "name": "lavish",
       "source": "kunchenguid/lavish-axi",
       "path": "skills/lavish",
-      "commit": "fa70396c75a6b792be859e036984fcfd6ace9792",
+      "commit": "2b32b92ec8e8fcfb7069af3e1a89c0cabc3bf9aa",
       "license": "MIT"
     },
     {
@@ -489,7 +489,7 @@
       "name": "loop-me",
       "source": "mattpocock/skills",
       "path": "skills/in-progress/loop-me",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
@@ -501,28 +501,28 @@
       "name": "maintain-formal-verification-skill",
       "source": "backnotprop/pstack",
       "path": "skills/maintain-formal-verification-skill",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "maintain-verification-skill",
       "source": "backnotprop/pstack",
       "path": "skills/maintain-verification-skill",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "make-bot-ui",
       "source": "backnotprop/pstack",
       "path": "skills/make-bot-ui",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "migrate-to-shoehorn",
       "source": "mattpocock/skills",
       "path": "skills/misc/migrate-to-shoehorn",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
@@ -536,21 +536,21 @@
       "name": "no-comments",
       "source": "backnotprop/pstack",
       "path": "skills/no-comments",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "no-mistakes",
       "source": "kunchenguid/no-mistakes",
       "path": "skills/no-mistakes",
-      "commit": "0a283bfbfa48b901cfe4f8488398b6babaabf75b",
+      "commit": "ae5285f93c6769866ee1ef2176564d302d1c9a64",
       "license": "MIT"
     },
     {
       "name": "observability-and-instrumentation",
       "source": "addyosmani/agent-skills",
       "path": "skills/observability-and-instrumentation",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
@@ -562,259 +562,259 @@
       "name": "performance-optimization",
       "source": "addyosmani/agent-skills",
       "path": "skills/performance-optimization",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "planning-and-task-breakdown",
       "source": "addyosmani/agent-skills",
       "path": "skills/planning-and-task-breakdown",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "poteto-help",
       "source": "backnotprop/pstack",
       "path": "skills/poteto-help",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "poteto-mode",
       "source": "backnotprop/pstack",
       "path": "skills/poteto-mode",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "pr",
       "source": "mattpocock/skills",
       "path": "skills/engineering/pr",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "principle-attack-the-premise",
       "source": "backnotprop/pstack",
       "path": "skills/principle-attack-the-premise",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-boundary-discipline",
       "source": "backnotprop/pstack",
       "path": "skills/principle-boundary-discipline",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-build-the-lever",
       "source": "backnotprop/pstack",
       "path": "skills/principle-build-the-lever",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-encode-lessons-in-structure",
       "source": "backnotprop/pstack",
       "path": "skills/principle-encode-lessons-in-structure",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-exhaust-the-design-space",
       "source": "backnotprop/pstack",
       "path": "skills/principle-exhaust-the-design-space",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-experience-first",
       "source": "backnotprop/pstack",
       "path": "skills/principle-experience-first",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-explain-the-number",
       "source": "backnotprop/pstack",
       "path": "skills/principle-explain-the-number",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-fix-root-causes",
       "source": "backnotprop/pstack",
       "path": "skills/principle-fix-root-causes",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-foundational-thinking",
       "source": "backnotprop/pstack",
       "path": "skills/principle-foundational-thinking",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-guard-the-context-window",
       "source": "backnotprop/pstack",
       "path": "skills/principle-guard-the-context-window",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-laziness-protocol",
       "source": "backnotprop/pstack",
       "path": "skills/principle-laziness-protocol",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-make-operations-idempotent",
       "source": "backnotprop/pstack",
       "path": "skills/principle-make-operations-idempotent",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-migrate-callers-then-delete-legacy-apis",
       "source": "backnotprop/pstack",
       "path": "skills/principle-migrate-callers-then-delete-legacy-apis",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-minimize-reader-load",
       "source": "backnotprop/pstack",
       "path": "skills/principle-minimize-reader-load",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-model-the-domain",
       "source": "backnotprop/pstack",
       "path": "skills/principle-model-the-domain",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-never-block-on-the-human",
       "source": "backnotprop/pstack",
       "path": "skills/principle-never-block-on-the-human",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-outcome-oriented-execution",
       "source": "backnotprop/pstack",
       "path": "skills/principle-outcome-oriented-execution",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-prove-it-works",
       "source": "backnotprop/pstack",
       "path": "skills/principle-prove-it-works",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-redesign-from-first-principles",
       "source": "backnotprop/pstack",
       "path": "skills/principle-redesign-from-first-principles",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-separate-before-serializing-shared-state",
       "source": "backnotprop/pstack",
       "path": "skills/principle-separate-before-serializing-shared-state",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-sequence-verifiable-units",
       "source": "backnotprop/pstack",
       "path": "skills/principle-sequence-verifiable-units",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-subtract-before-you-add",
       "source": "backnotprop/pstack",
       "path": "skills/principle-subtract-before-you-add",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-test-behavior-not-implementation",
       "source": "backnotprop/pstack",
       "path": "skills/principle-test-behavior-not-implementation",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "principle-type-system-discipline",
       "source": "backnotprop/pstack",
       "path": "skills/principle-type-system-discipline",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "provider-adapters",
       "source": "kunchenguid/quota-axi",
       "path": "skills/provider-adapters",
-      "commit": "5734c41eee52eb9a80ba67f47269ebc06c0c41fc",
+      "commit": "053d364b856c2cd469882a53f3aaf27096fa23d8",
       "license": "MIT"
     },
     {
       "name": "provider-onboarding",
       "source": "kunchenguid/quota-axi",
       "path": "skills/provider-onboarding",
-      "commit": "5734c41eee52eb9a80ba67f47269ebc06c0c41fc",
+      "commit": "053d364b856c2cd469882a53f3aaf27096fa23d8",
       "license": "MIT"
     },
     {
       "name": "quota-axi",
       "source": "kunchenguid/quota-axi",
       "path": "skills/quota-axi",
-      "commit": "5734c41eee52eb9a80ba67f47269ebc06c0c41fc",
+      "commit": "053d364b856c2cd469882a53f3aaf27096fa23d8",
       "license": "MIT"
     },
     {
       "name": "quota-interpretation",
       "source": "kunchenguid/quota-axi",
       "path": "skills/quota-interpretation",
-      "commit": "5734c41eee52eb9a80ba67f47269ebc06c0c41fc",
+      "commit": "053d364b856c2cd469882a53f3aaf27096fa23d8",
       "license": "MIT"
     },
     {
       "name": "recall",
       "source": "backnotprop/pstack",
       "path": "skills/recall",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "reflect",
       "source": "backnotprop/pstack",
       "path": "skills/reflect",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "release-ci",
       "source": "kunchenguid/quota-axi",
       "path": "skills/release-ci",
-      "commit": "5734c41eee52eb9a80ba67f47269ebc06c0c41fc",
+      "commit": "053d364b856c2cd469882a53f3aaf27096fa23d8",
       "license": "MIT"
     },
     {
       "name": "research",
       "source": "mattpocock/skills",
       "path": "skills/engineering/research",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
@@ -828,70 +828,70 @@
       "name": "retro",
       "source": "mattpocock/skills",
       "path": "skills/engineering/retro",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "scaffold-exercises",
       "source": "mattpocock/skills",
       "path": "skills/misc/scaffold-exercises",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "security-and-hardening",
       "source": "addyosmani/agent-skills",
       "path": "skills/security-and-hardening",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "setup-matt-pocock-skills",
       "source": "mattpocock/skills",
       "path": "skills/engineering/setup-matt-pocock-skills",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "setup-pre-commit",
       "source": "mattpocock/skills",
       "path": "skills/misc/setup-pre-commit",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "setup-pstack",
       "source": "backnotprop/pstack",
       "path": "skills/setup-pstack",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "setup-ts-deep-modules",
       "source": "mattpocock/skills",
       "path": "skills/in-progress/setup-ts-deep-modules",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "sharpen",
       "source": "backnotprop/pstack",
       "path": "skills/sharpen",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "shipping-and-launch",
       "source": "addyosmani/agent-skills",
       "path": "skills/shipping-and-launch",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "show-me-your-work",
       "source": "backnotprop/pstack",
       "path": "skills/show-me-your-work",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
@@ -905,28 +905,28 @@
       "name": "source-driven-development",
       "source": "addyosmani/agent-skills",
       "path": "skills/source-driven-development",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "spec-driven-development",
       "source": "addyosmani/agent-skills",
       "path": "skills/spec-driven-development",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "statechart",
       "source": "backnotprop/pstack",
       "path": "skills/statechart",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "stow",
       "source": "kunchenguid/firstmate",
       "path": "skills/stow",
-      "commit": "427056c4181c41074ad24f051f79919330df0fa5",
+      "commit": "2f000eb4301c2d733bef163621e9ac3d740f21cf",
       "license": "MIT"
     },
     {
@@ -938,7 +938,7 @@
       "name": "swarm",
       "source": "backnotprop/pstack",
       "path": "skills/swarm",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
@@ -959,84 +959,84 @@
       "name": "tdd",
       "source": "backnotprop/pstack",
       "path": "skills/tdd",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "teach",
       "source": "backnotprop/pstack",
       "path": "skills/teach",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "technical-writing",
       "source": "backnotprop/pstack",
       "path": "skills/technical-writing",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "test-driven-development",
       "source": "addyosmani/agent-skills",
       "path": "skills/test-driven-development",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "to-questionnaire",
       "source": "mattpocock/skills",
       "path": "skills/productivity/to-questionnaire",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "to-spec",
       "source": "mattpocock/skills",
       "path": "skills/engineering/to-spec",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "to-tickets",
       "source": "mattpocock/skills",
       "path": "skills/engineering/to-tickets",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "triage",
       "source": "mattpocock/skills",
       "path": "skills/engineering/triage",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "typescript-best-practices",
       "source": "backnotprop/pstack",
       "path": "skills/typescript-best-practices",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "unslop",
       "source": "backnotprop/pstack",
       "path": "skills/unslop",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "using-agent-skills",
       "source": "addyosmani/agent-skills",
       "path": "skills/using-agent-skills",
-      "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+      "commit": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
       "license": "MIT"
     },
     {
       "name": "vision",
       "source": "kunchenguid/vision",
       "path": "skills/vision",
-      "commit": "7a20c38181151ec67efdf8fa2cb03a60123a7b83",
+      "commit": "acf4d656188e55ce9633774e4d0c848e9ae49a02",
       "license": "MIT"
     },
     {
@@ -1050,14 +1050,14 @@
       "name": "wait-what",
       "source": "mattpocock/skills",
       "path": "skills/productivity/wait-what",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "wayfinder",
       "source": "mattpocock/skills",
       "path": "skills/engineering/wayfinder",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
@@ -1071,42 +1071,42 @@
       "name": "why",
       "source": "backnotprop/pstack",
       "path": "skills/why",
-      "commit": "74bcc61bd216687b1d6d480c28f109adfc9824ec",
+      "commit": "2a5621683e2bbb274efea8b52dd69f5beef6c25f",
       "license": "MIT"
     },
     {
       "name": "wizard",
       "source": "mattpocock/skills",
       "path": "skills/engineering/wizard",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "writing-beats",
       "source": "mattpocock/skills",
       "path": "skills/in-progress/writing-beats",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "writing-for-agents",
       "source": "mattpocock/skills",
       "path": "skills/productivity/writing-for-agents",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "writing-fragments",
       "source": "mattpocock/skills",
       "path": "skills/in-progress/writing-fragments",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     },
     {
       "name": "writing-shape",
       "source": "mattpocock/skills",
       "path": "skills/in-progress/writing-shape",
-      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
       "license": "MIT"
     }
   ]

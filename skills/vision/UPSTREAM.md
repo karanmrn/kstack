@@ -1,6 +1,6 @@
 # Upstream
 
-This folder is a copy of `skills/vision` from [kunchenguid/vision](https://github.com/kunchenguid/vision/tree/7a20c38181151ec67efdf8fa2cb03a60123a7b83/skills/vision) at commit `7a20c38`.
+This folder is a copy of `skills/vision` from [kunchenguid/vision](https://github.com/kunchenguid/vision/tree/acf4d656188e55ce9633774e4d0c848e9ae49a02/skills/vision) at commit `acf4d65`.
 kstack adds only this file.
 Report problems with the skill upstream.
 
