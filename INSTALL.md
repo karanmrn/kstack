@@ -52,6 +52,8 @@ Then restart your agent so it loads the new skill files.
    Before a bulk refresh, check the [historical revision retained in this refresh](docs/refresh-2026-11-16.md#restored-approved-skill).
    An upstream checkout that lacks a listed skill causes `vendor` to stop after it deletes that skill's existing folder.
    Preserve historical entries and their `UPSTREAM.md` files separately when refreshing the remaining skills.
+   Before refreshing, inspect each skill's `UPSTREAM.md` for kstack adaptations.
+   The vendor command overwrites these adaptations. Restore them before rendering the catalogue.
 
    ```bash
    python3 scripts/kstack.py vendor --upstream-root /tmp/kstack-upstream
